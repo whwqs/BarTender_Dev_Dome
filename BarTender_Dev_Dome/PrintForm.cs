@@ -143,5 +143,10 @@ namespace BarTender_Dev_Dome
         {
             PrintBar(true);
         }
-    }
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			new 鼎龙().Show();
+		}
+	}
 }
